@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invoice and Tracking\n"
+"POT-Creation-Date: 2018-07-11 13:58+0200\n"
+"PO-Revision-Date: 2018-07-11 13:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: RapidDev <kontakt@rapiddev.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: emails/tracking_email.php:13
+msgid "Shipment status"
+msgstr "Status przesyłki"
+
+#: emails/tracking_email.php:17
+msgid "The number of your package is"
+msgstr "Numer twojej paczki to"
+
+#: emails/tracking_email.php:19
+msgid "Sent with"
+msgstr "Wysłano za pomocą"
+
+#: emails/tracking_email.php:21
+msgid "Track your parcel"
+msgstr "Śledź swoją paczkę"
+
+#: tracking_email.php:77
+msgid "Shipment tracking"
+msgstr "Śledzenie przesyłki"
+
+#: tracking_email.php:94
+msgid "The message is being sent."
+msgstr "Trwa wysyłanie wiadomości."
+
+#: tracking_email.php:97
+msgid "Well done"
+msgstr "Brawo"
+
+#: tracking_email.php:99
+msgid ""
+"The tracking information was sent to the client. The note has been added to "
+"your order. You can now save your changes so you do not lose your tracking "
+"number and status."
+msgstr ""
+"Informacje o śledzeniu zostały wysłane do klienta. Notatka została dodana do "
+"twojego zamówienia. Możesz teraz zapisać zmiany, aby nie utracić numeru "
+"śledzenia i jego statusu."
+
+#: tracking_email.php:102
+msgid "An error occured"
+msgstr "Wystąpił błąd"
+
+#: tracking_email.php:104
+msgid "An error occurred while sending tracking information."
+msgstr "Podczas wysyłania informacji o śledzeniu wystąpił błąd."
+
+#: tracking_email.php:109
+msgid "Tracking number"
+msgstr "Numer śledzenia"
+
+#: tracking_email.php:112
+msgid "Select courier"
+msgstr "Wybierz kuriera"
+
+#: tracking_email.php:132
+msgid "Tracking status"
+msgstr "Status śledzenia"
+
+#: tracking_email.php:134
+msgid "Ready to send"
+msgstr "Gotowa do wysłania"
+
+#: tracking_email.php:135
+msgid "Sent"
+msgstr "Wysłana"
+
+#: tracking_email.php:139
+msgid "Send tracking number"
+msgstr "Wyślij numer śledzenia"
+
+#: tracking_email.php:326
+msgid "Courier"
+msgstr "Kurier"
+
+#: tracking_email.php:332
+msgid "Sent by "
+msgstr "Wysłano przez "
+
+#: tracking_email.php:332
+msgid "Track the package"
+msgstr "Śledź paczkę"
+
+#: tracking_email.php:340
+msgid "Tracking number is"
+msgstr "Numer śledzenia"
+
+#: tracking_email.php:344
+msgid "Your parcel is ready to be sent!"
+msgstr "Twoja paczka jest gotowa do wysłania!"
+
+#: tracking_email.php:345
+msgid "Shipment information sent to the client, status: Ready to send"
+msgstr "Informacja o przesyłce wysłana do klienta, status: Gotowa do wysłania"
+
+#: tracking_email.php:348
+msgid "Your package has been sent!"
+msgstr "Twoja paczka została wysłana!"
+
+#: tracking_email.php:349
+msgid "Shipment information sent to the client, status: Sent"
+msgstr "Informacja o przesyłce wysłana do klienta, status: Wysłana"
+
+#: tracking_email.php:380
+msgid "Tracking"
+msgstr "Śledzenie"
+
+#: tracking_email.php:398
+msgid "Not determined"
+msgstr "Nie ustalono"
+
+#: tracking_email.php:400
+msgid "Track package"
+msgstr "Śledź paczkę"
+
+#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
+msgid "ERROR"
+msgstr "BLĄD"
+
+#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
+msgid "The"
+msgstr ""
+
+#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
+msgid "requires at least"
+msgstr "wymaga conajmniej"
+
+#: tracking_email.php:411
+msgid "You need to update your WooCommerce plugin"
+msgstr "Musisz zaktualizować swoją wtyczkę WooCommerce"
+
+#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
+msgid "ERROR ID"
+msgstr "KOD BŁĘDU"
+
+#: tracking_email.php:424 tracking_email.php:437
+msgid "You need to update your WordPress site"
+msgstr "Musisz zaktualizować swojego WordPressa"
+
+#~ msgid "The tracking number has been sent to the customer."
+#~ msgstr "Numer śledzenia został wysłany do klienta."
+
+#~ msgid "Invoice and Tracking"
+#~ msgstr "Faktury i Śledzenie"
+
+#~ msgid "Registered"
+#~ msgstr "Zarejestrowana"
+
+#~ msgid "Invoice"
+#~ msgstr "Faktura"
+
+#~ msgid "Send invoice"
+#~ msgstr "Wyślij fakturę"
+
+#~ msgid "Your package has been registered!"
+#~ msgstr "Twoja paczka została zarejestrowana!"
+
+#~ msgid "Send e-mail"
+#~ msgstr "Wyślij e-mail"
+
+#~ msgid "Send"
+#~ msgstr "Wyślij"
