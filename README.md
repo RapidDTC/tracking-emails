@@ -4,6 +4,7 @@ Send e-mail notifications about the delivery status to your customers. It's easy
 ***
 
 [![License][license-image]][license-url]
+[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
 
 - 39.0 KB
 - Security against invalid versions of WordPress and WooCommerce
@@ -22,6 +23,18 @@ It's easy to notify customers that their package is ready to be sent.
 
 ## Save tracking numbers
 Save tracking numbers in your cockpit to easily manage them
+
+## What's included
+```
+tracking-email/
+├── emails/
+│   └── tracking_email.php
+├── languages/
+│   ├── tracking_email-pl_PL.mo
+│   └── tracking_email-pl_PL.po
+├── readme.txt
+└── tracking_email.php
+```
 
 ## How to install it?
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of Email tracking notification for WooCommerce, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
