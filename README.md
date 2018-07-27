@@ -2,11 +2,16 @@
 [Created with love in Poland by RapidDev](http://rapiddev.pl/)<br />
 Send e-mail notifications about the delivery status to your customers. It's easy!
 
+![Presentation image](https://ps.w.org/email-tracking-notification-for-woocommerce/assets/banner-772x250.png)
+
+
 ## [Download from the WordPress repository](https://wordpress.org/plugins/email-tracking-notification-for-woocommerce/)
 #### [Download the latest version from GitHub (1.0.0)](https://github.com/RapidDTC/tracking-emails/releases/tag/1.0.0)
 
 ## Notify customers
 It's easy to notify customers that their package is ready to be sent.
+
+![Order view](https://ps.w.org/email-tracking-notification-for-woocommerce/assets/screenshot-2.png?rev=1908457)
 
 ## Save tracking numbers
 Save tracking numbers in your cockpit to easily manage them
