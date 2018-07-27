@@ -3,7 +3,7 @@
 Send e-mail notifications about the delivery status to your customers. It's easy!
 
 ## [Download from the WordPress repository](https://wordpress.org/plugins/email-tracking-notification-for-woocommerce/)
-#### [Download the latest version from GitHub (1.3.5)](https://github.com/RapidDTC/Invoices-WooCommerce/releases/tag/v.1.0.0)
+#### [Download the latest version from GitHub (1.0.0)](https://github.com/RapidDTC/tracking-emails/releases/tag/1.0.0)
 
 ## Notify customers
 It's easy to notify customers that their package is ready to be sent.
