@@ -2,8 +2,8 @@
 Contributors: RapidDev
 Donate link: https://paypal.me/rapiddev
 Tags: wordpress, woocommerce, email, tracking, package, info, order, status, notification, courier, carriers, woo, bootstrap, pack
-Requires at least: 4.5.0
-Tested up to: 4.9.7
+Requires at least: 4.9.0
+Tested up to: 4.9.8
 Requires PHP: 5.4.0
 Stable tag: tracking-email
 License: MIT

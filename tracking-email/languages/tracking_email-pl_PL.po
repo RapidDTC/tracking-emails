@@ -1,53 +1,82 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Invoice and Tracking\n"
-"POT-Creation-Date: 2018-07-11 13:58+0200\n"
-"PO-Revision-Date: 2018-07-11 13:58+0200\n"
+"Project-Id-Version: Email tracking notification for WooCommerce\n"
+"POT-Creation-Date: 2018-09-01 02:19+0200\n"
+"PO-Revision-Date: 2018-09-01 02:28+0200\n"
 "Last-Translator: \n"
-"Language-Team: RapidDev <kontakt@rapiddev.pl>\n"
+"Language-Team: \n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tracking_email.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: emails/tracking_email.php:13
-msgid "Shipment status"
-msgstr "Status przesyłki"
+#: assets/class.php:89 local-dir/trunk/tracking_email.php:342
+msgid "Your parcel is ready to be sent!"
+msgstr "Twoja paczka jest gotowa do wysłania!"
 
-#: emails/tracking_email.php:17
-msgid "The number of your package is"
-msgstr "Numer twojej paczki to"
+#: assets/class.php:89 local-dir/trunk/tracking_email.php:346
+msgid "Your package has been sent!"
+msgstr "Twoja paczka została wysłana!"
 
-#: emails/tracking_email.php:19
-msgid "Sent with"
-msgstr "Wysłano za pomocą"
+#: assets/class.php:96 local-dir/trunk/tracking_email.php:338
+msgid "Tracking number is"
+msgstr "Numer śledzenia to"
 
-#: emails/tracking_email.php:21
-msgid "Track your parcel"
-msgstr "Śledź swoją paczkę"
+#: assets/class.php:96 local-dir/trunk/tracking_email.php:330
+msgid "Sent by "
+msgstr "Wysłane za pomocą "
 
-#: tracking_email.php:77
+#: assets/class.php:96 local-dir/trunk/tracking_email.php:330
+msgid "Track the package"
+msgstr "Śledź paczkę"
+
+#: assets/class.php:171 local-dir/trunk/tracking_email.php:132
+msgid "Tracking status"
+msgstr "Status śledzenia"
+
+#: assets/class.php:182 assets/class.php:200
+msgid "Unknown shipment status"
+msgstr "Nieznany status przesyłki"
+
+#: assets/class.php:186 local-dir/trunk/tracking_email.php:396
+#: local-dir/trunk/tracking_email.php:455
+msgid "Not determined"
+msgstr "Nie ustalono"
+
+#: assets/class.php:206 assets/class.php:212
+#: local-dir/trunk/tracking_email.php:453
+msgid "Track package"
+msgstr "Śledź paczkę"
+
+#: assets/class.php:250 local-dir/trunk/tracking_email.php:77
 msgid "Shipment tracking"
 msgstr "Śledzenie przesyłki"
 
-#: tracking_email.php:94
-msgid "The message is being sent."
-msgstr "Trwa wysyłanie wiadomości."
+#: assets/class.php:254
+msgid "Tracking events"
+msgstr "Zdarzenia śledzenia"
 
-#: tracking_email.php:97
+#: assets/class.php:265
+msgid "The message is being sent..."
+msgstr "Wiadomość jest właśnie wysyłana..."
+
+#: assets/class.php:266 local-dir/trunk/tracking_email.php:97
 msgid "Well done"
 msgstr "Brawo"
 
-#: tracking_email.php:99
+#: assets/class.php:266 local-dir/trunk/tracking_email.php:99
 msgid ""
 "The tracking information was sent to the client. The note has been added to "
 "your order. You can now save your changes so you do not lose your tracking "
@@ -57,126 +86,154 @@ msgstr ""
 "twojego zamówienia. Możesz teraz zapisać zmiany, aby nie utracić numeru "
 "śledzenia i jego statusu."
 
-#: tracking_email.php:102
+#: assets/class.php:267 local-dir/trunk/tracking_email.php:102
 msgid "An error occured"
 msgstr "Wystąpił błąd"
 
-#: tracking_email.php:104
+#: assets/class.php:267 local-dir/trunk/tracking_email.php:104
 msgid "An error occurred while sending tracking information."
 msgstr "Podczas wysyłania informacji o śledzeniu wystąpił błąd."
 
-#: tracking_email.php:109
+#: assets/class.php:270 local-dir/trunk/tracking_email.php:109
 msgid "Tracking number"
 msgstr "Numer śledzenia"
 
-#: tracking_email.php:112
-msgid "Select courier"
-msgstr "Wybierz kuriera"
+#: assets/class.php:271
+msgid "Carrier"
+msgstr "Przewoźnik"
 
-#: tracking_email.php:132
-msgid "Tracking status"
-msgstr "Status śledzenia"
+#: assets/class.php:276
+msgid "Status"
+msgstr "Status"
 
-#: tracking_email.php:134
+#: assets/class.php:276 local-dir/trunk/tracking_email.php:134
 msgid "Ready to send"
 msgstr "Gotowa do wysłania"
 
-#: tracking_email.php:135
+#: assets/class.php:276 local-dir/trunk/tracking_email.php:135
 msgid "Sent"
 msgstr "Wysłana"
 
-#: tracking_email.php:139
+#: assets/class.php:277 local-dir/trunk/tracking_email.php:139
 msgid "Send tracking number"
 msgstr "Wyślij numer śledzenia"
 
-#: tracking_email.php:326
-msgid "Courier"
-msgstr "Kurier"
+#: assets/class.php:319
+msgid "Error occurred while checking the package"
+msgstr "Wystąpił błąd podczas sprawdzania paczki"
 
-#: tracking_email.php:332
-msgid "Sent by "
-msgstr "Wysłano przez "
-
-#: tracking_email.php:332
-msgid "Track the package"
-msgstr "Śledź paczkę"
-
-#: tracking_email.php:340
-msgid "Tracking number is"
-msgstr "Numer śledzenia"
-
-#: tracking_email.php:344
-msgid "Your parcel is ready to be sent!"
-msgstr "Twoja paczka jest gotowa do wysłania!"
-
-#: tracking_email.php:345
-msgid "Shipment information sent to the client, status: Ready to send"
-msgstr "Informacja o przesyłce wysłana do klienta, status: Gotowa do wysłania"
-
-#: tracking_email.php:348
-msgid "Your package has been sent!"
-msgstr "Twoja paczka została wysłana!"
-
-#: tracking_email.php:349
-msgid "Shipment information sent to the client, status: Sent"
-msgstr "Informacja o przesyłce wysłana do klienta, status: Wysłana"
-
-#: tracking_email.php:380
-msgid "Tracking"
-msgstr "Śledzenie"
-
-#: tracking_email.php:398
-msgid "Not determined"
-msgstr "Nie ustalono"
-
-#: tracking_email.php:400
-msgid "Track package"
-msgstr "Śledź paczkę"
-
-#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
-msgid "ERROR"
-msgstr "BLĄD"
-
-#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
-msgid "The"
+#: assets/class.php:371
+#, php-format
+msgid ""
+"Your PHP version is outdated. Please, upgrade your PHP to a higher or equal "
+"version than %s."
 msgstr ""
+"Twoja wersja PHP jest przestarzała. Proszę, zaktualizuj swoje PHP do wersji "
+"wyższej lub równej %s."
 
-#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
-msgid "requires at least"
-msgstr "wymaga conajmniej"
+#: assets/class.php:374
+msgid "There was an unidentified error. We should look deeper..."
+msgstr "Pojawił się niezidentyfikowany błąd. Powinniśmy zajrzeć głębiej..."
 
-#: tracking_email.php:411
-msgid "You need to update your WooCommerce plugin"
-msgstr "Musisz zaktualizować swoją wtyczkę WooCommerce"
-
-#: tracking_email.php:411 tracking_email.php:424 tracking_email.php:437
+#: assets/class.php:379 local-dir/trunk/tracking_email.php:468
+#: local-dir/trunk/tracking_email.php:481
+#: local-dir/trunk/tracking_email.php:494
 msgid "ERROR ID"
 msgstr "KOD BŁĘDU"
 
-#: tracking_email.php:424 tracking_email.php:437
+#: emails/tracking_email.php:13 local-dir/trunk/emails/tracking_email.php:13
+msgid "Shipment status"
+msgstr "Status przesyłki"
+
+#: emails/tracking_email.php:17 local-dir/trunk/emails/tracking_email.php:17
+msgid "The number of your package is"
+msgstr "Numer twojej paczki to"
+
+#: emails/tracking_email.php:19 local-dir/trunk/emails/tracking_email.php:19
+msgid "Sent with"
+msgstr "Wysłane za pomocą"
+
+#: emails/tracking_email.php:21 local-dir/trunk/emails/tracking_email.php:21
+msgid "Track your parcel"
+msgstr "Śledź swoją paczkę"
+
+#: local-dir/trunk/tracking_email.php:94
+msgid "The message is being sent."
+msgstr "Wiadomość jest właśnie wysyłana."
+
+#: local-dir/trunk/tracking_email.php:112
+msgid "Select courier"
+msgstr "Wybierz kuriera"
+
+#: local-dir/trunk/tracking_email.php:324
+msgid "Courier"
+msgstr "Kurier"
+
+#: local-dir/trunk/tracking_email.php:343
+msgid "Shipment information sent to the client, status: Ready to send"
+msgstr "Informacja o przesyłce wysłana do klienta, status: Gotowa do wysłania"
+
+#: local-dir/trunk/tracking_email.php:347
+msgid "Shipment information sent to the client, status: Sent"
+msgstr "Informacja o przesyłce wysłana do klienta, status: Wysłana"
+
+#: local-dir/trunk/tracking_email.php:378
+msgid "Tracking"
+msgstr "Śledzenie"
+
+#: local-dir/trunk/tracking_email.php:468
+#: local-dir/trunk/tracking_email.php:481
+#: local-dir/trunk/tracking_email.php:494
+msgid "ERROR"
+msgstr "BŁĄD"
+
+#: local-dir/trunk/tracking_email.php:468
+#: local-dir/trunk/tracking_email.php:481
+#: local-dir/trunk/tracking_email.php:494
+msgid "The"
+msgstr " "
+
+#: local-dir/trunk/tracking_email.php:468
+#: local-dir/trunk/tracking_email.php:481
+#: local-dir/trunk/tracking_email.php:494
+#, fuzzy
+msgid "requires at least"
+msgstr "wymaga conajmniej"
+
+#: local-dir/trunk/tracking_email.php:468
+#, fuzzy
+msgid "You need to update your WooCommerce plugin"
+msgstr "Musisz zaktualizować swoją wtyczkę WooCommerce"
+
+#: local-dir/trunk/tracking_email.php:481
+#: local-dir/trunk/tracking_email.php:494
+#, fuzzy
 msgid "You need to update your WordPress site"
 msgstr "Musisz zaktualizować swojego WordPressa"
 
-#~ msgid "The tracking number has been sent to the customer."
-#~ msgstr "Numer śledzenia został wysłany do klienta."
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Email tracking notification for WooCommerce"
+msgstr "Powiadomienie e-mail śledzenia dla WooCommerce"
 
-#~ msgid "Invoice and Tracking"
-#~ msgstr "Faktury i Śledzenie"
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://wordpress.org/plugins/tracking-email/"
+msgstr "http://WordPress.org/plugins/Tracking-email/"
 
-#~ msgid "Registered"
-#~ msgstr "Zarejestrowana"
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Send e-mail notifications about the delivery status to your customers. It's "
+"easy!"
+msgstr "Wysyłaj powiadomienia e-mail o stanie dostawy do klientów. To proste!"
 
-#~ msgid "Invoice"
-#~ msgstr "Faktura"
+#. Author of the plugin/theme
+#, fuzzy
+msgid "RapidDev | Polish technology company"
+msgstr "RapidDev | Polska firma technologiczna"
 
-#~ msgid "Send invoice"
-#~ msgstr "Wyślij fakturę"
-
-#~ msgid "Your package has been registered!"
-#~ msgstr "Twoja paczka została zarejestrowana!"
-
-#~ msgid "Send e-mail"
-#~ msgstr "Wyślij e-mail"
-
-#~ msgid "Send"
-#~ msgstr "Wyślij"
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://rapiddev.pl/"
+msgstr "https://rapiddev.pl/"
