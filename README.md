@@ -3,9 +3,6 @@
 Send e-mail notifications about the delivery status to your customers. It's easy!
 ***
 
-[![License][license-image]][license-url]
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
-
 - 39.0 KB
 - Security against invalid versions of WordPress and WooCommerce
 
