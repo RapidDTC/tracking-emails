@@ -3,7 +3,7 @@ Contributors: RapidDev
 Donate link: https://paypal.me/rapiddev
 Tags: wordpress, woocommerce, email, tracking, package, info, order, status, notification, courier, carriers, woo, bootstrap, pack
 Requires at least: 5.2.3
-Tested up to: 5.2.3
+Tested up to: 5.4.2
 Requires PHP: 5.6.0
 Stable tag: tracking-email
 License: MIT
@@ -18,6 +18,9 @@ Notify customers that their package is ready to be sent.
 
 = Save tracking numbers =
 Save tracking numbers in your cockpit to easily manage them
+
+= Tracking details in the admin panel =
+You can get tracking information into dashboard for some carriers
 
 = Customer information =
 Customer sees his package number and tracking link in his order details
@@ -41,8 +44,8 @@ USPS, FedEx, UPS, EMS, DHL, TNT, India Post, DPD, GLS, PostNL, Schenker, Royal M
 
 * PHP version 5.4.0 or greater (PHP 7.2 or greater is recommended)
 * MySQL version 5.0 or greater (MySQL 5.6 or greater is recommended)
-* WordPress version 4.5.0 or greater
-* WooCommerce version 3.4.0 or greater
+* WordPress version 5.2.3 or greater (WordPress 5.4.2 or greater is recommended)
+* WooCommerce version 3.4.0 or greater (WooCommerce 4.1.1 or greater is recommended)
 
 = Automatic installation =
 
@@ -89,9 +92,43 @@ No, the plugin and its components work only on your site..
 2. Sending notification
 3. Notes to order
 4. Email
-5. Orders page
+5. Order page
+6. Tracking on the customer's order page
 
 == Changelog ==
+
+= 1.7.4 =
+1. Hotfix
+
+= 1.7.3 =
+1. Hotfix
+
+= 1.7.2 =
+1. Hotfix
+
+= 1.7.1 =
+1. Hotfix
+
+= 1.7.0 =
+1. New buttons and links in admin area
+
+= 1.6.0 =
+1. Tested with WordPress 5.4.2
+2. Support for live tracking polish post
+3. Some emails errors removed
+
+= 1.5.0 =
+1. Tested with WordPress 5.4.1
+2. Correction of errors on the client's order page
+3. Adding new buttons in the admin area
+
+= 1.4.0 =
+1. The construction of the main class has been improved
+2. Better error detection
+3. Tested with WordPress 5.4.0
+4. Tested with WooCommerce 4.0.1
+5. Better display of the message on the customer's order page
+6. Adding a column to the order list
 
 = 1.3.0 =
 1. The plugin has been rewritten to the OOP style
